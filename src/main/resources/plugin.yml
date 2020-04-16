@@ -1,8 +1,7 @@
 name: SafeTrade
-version: 1.1.0
-author: BtoBastian
+version: arim-1.1.0
+authors: [BtoBastian, A248]
 main: de.oppermann.bastian.safetrade.Main
-api-version: 1.13
 softdepend: [Vault]
 commands:
    trade:
