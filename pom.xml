@@ -6,11 +6,14 @@
     <artifactId>safetrade</artifactId>
     <version>arim-1.1.0</version>
     
+	<name>SafeTrade</name>
+    
     <properties>
     	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     
     <build>
+    	<finalName>${project.name}_${project.version}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -23,7 +26,6 @@
             </plugin>
         </plugins>
     </build>
-    <name>SafeTrade</name>
     <repositories>
         <repository>
             <id>spigot-repo</id>
